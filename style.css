@@ -1,0 +1,90 @@
+button{
+    cursor: pointer;
+}
+body{
+    background: hsl(225, 100%, 94%) url("pattern-background-mobile.svg") center/cover no-repeat;
+    font-family: Red Hat Display,sans-serif;
+}
+.block{
+    margin: auto;
+    border-radius: 5px;
+    background: #FFFFFF;
+    max-width: 375px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 14px 28px, rgba(0, 0, 0, 0.22) 0 10px 10px;
+}
+.block__img img{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.container{
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+}
+.block__title{
+    font-size: 25px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.block__text{
+    font-size: 16px;
+    color:hsl(224, 23%, 55%);
+    margin-bottom: 15px;
+}
+.item-body__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: hsl(225, 100%, 98%);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.item-body__element:first-of-type{
+    background: url("icon-music.svg") 0 0/contain no-repeat;
+    padding-left: 50px;
+}
+.item-body__title{
+    color:hsl(223, 47%, 23%);
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.item-body__subtitle{
+    color:hsl(224, 23%, 55%);
+}
+.item-body__link a:hover{
+    text-decoration: none;
+    color:hsl(245, 75%, 52%);
+}
+.block__btn button{
+    border-radius: 8px;
+    background: hsl(245, 75%, 52%);
+    color: #FFFFFF;
+    border: 1px hsl(245, 75%, 52%);
+    width: 100%;
+    padding: 16px 0;
+    margin-bottom: 25px;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 14px 28px, rgba(0, 0, 0, 0.22) 0 10px 10px;
+}
+.block__btn button:hover{
+    background: hsl(245, 98%, 47%);
+}
+.block__btn button:active{
+    background: hsla(245, 75%, 52%, 0.63);
+}
+.block__foot{
+    margin-bottom: 20px;
+}
+.block__foot a{
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    text-decoration: none;
+}
+.block__foot a:hover{
+    color:hsl(223, 47%, 23%);
+    font-weight: 700;
+}
